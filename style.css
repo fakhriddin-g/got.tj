@@ -1,34 +1,8 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-body {
-  color: #fff;
-  background-color: #b8b8b8;
-}
-
-li {
-  font-size: 20px;
-  list-style-type: none;
-  cursor: pointer;
-}
-
 .active {
   color: #c6eb33;
 }
 
 /* Header */
-.header {
-  background-color: #849ed1;
-}
-
-.container {
-  width: 70%;
-  margin: auto;
-}
-
 .nav-box {
   display: flex;
   align-items: center;
@@ -64,9 +38,6 @@ li {
 }
 
 /* Main */
-.main {
-  margin-top: 20px;
-}
 
 .columns {
   display: grid;
