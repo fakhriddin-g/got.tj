@@ -12,7 +12,7 @@ export let headerListLink = {
   3: "/pages/contact/"
 };
 
-export let leftColumnArr = {
+export let aboutAsideMenu = {
   0: "Дар бораи мо",
   1: "Ҳадафҳои мо",
   2: "Таърих",
@@ -23,3 +23,24 @@ export let leftColumnArr = {
   7: "Роҳбарият",
   8: "Шарикон"
 };
+
+export let activityAsideMenu = {
+  0: "Фаъолияти асосии",
+  1: "Конфренсияҳо",
+  2: "Cимпозиумҳо",
+  3: "Семинарҳо",
+  4: "Вохуриҳо",
+}
+
+export let studyAsideMenu = {
+  0: "Журнал",
+  1: "Китобхонаи электронӣ",
+  2: "Касбияти омӯзгорон",
+  3: "Мактабҳо",
+  4: "Олимпиадаҳо"
+}
+
+export let contactAsideMenu = {
+  0: "Маълумоти умумӣ",
+  1: "Сомонаҳо",
+}
