@@ -71,6 +71,29 @@ export function reloadActivityPage(place) {
   listFunc(list);
 }
 
+// Management Structure
+export function management(arr, place) {
+  for (const member of arr) {
+    let leadership = document.createElement('div')
+    let leadershipImg = document.createElement('img')
+    let leadershipTitle = document.createElement('div')
+    let h4 = document.createElement('h4')
+    let span = document.createElement('span')
+
+    leadership.classList.add('leadership')
+    leadershipImg.classList.add('leadership-img')
+    leadershipTitle.classList.add('leadership-title')
+
+    h4.innerHTML = member.duty
+    span.innerHTML = member.status + ' ' + member.fullName
+    leadershipImg.src = '/public/images/member/' + member.img + '.jpg'
+
+    leadershipTitle.append(h4, span)
+    leadership.append(leadershipImg, leadershipTitle)
+    place.append(leadership)
+  }
+}
+
 // Study
 export function reloadStudyPage(place) {
   place.innerHTML = ""
