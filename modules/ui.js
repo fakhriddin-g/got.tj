@@ -86,7 +86,7 @@ export function management(arr, place) {
 
     h4.innerHTML = member.duty
     span.innerHTML = member.status + ' ' + member.fullName
-    leadershipImg.src = '/public/images/member/' + member.img + '.jpg'
+    leadershipImg.src = './public/images/member/' + member.img + '.jpg'
 
     leadershipTitle.append(h4, span)
     leadership.append(leadershipImg, leadershipTitle)
